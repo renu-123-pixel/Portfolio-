@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact </a></li>
+                </ul>
+                <div class="nav-toggle">☰</div>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Discover my work and projects.</p>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="linkedinrenu.jpg" alt="Your Photo" width="300" height="250">
+            <p>I'm a passionate developer with experience in various technologies.</p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>Description of Project 2.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 3</h3>
+                    <p>Description of Project 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
